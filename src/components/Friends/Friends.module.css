@@ -1,0 +1,25 @@
+.friendsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #010101;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 512px;
+    margin: auto;
+    background-color: #FFF8DC;
+    list-style: none;
+    padding: 0;
+}
+
+.friendsItem {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
