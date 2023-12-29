@@ -18,7 +18,9 @@ const Transactions = ({transactionsData}) => {
       <th>Currency</th>
     </tr>
   </thead>
+  <tbody>
   {transactionsList}
+  </tbody>
     </table>
    );
 };
